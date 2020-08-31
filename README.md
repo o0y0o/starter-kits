@@ -2,5 +2,5 @@
 
 ## License
 
-[MIT](https://github.com/<%= repoName %>/blob/master/LICENSE)
+[MIT](https://github.com/o0y0o/starter-kits/blob/master/LICENSE)
 

@@ -1,6 +1,6 @@
 {
   "name": "@0y0/starter-kits",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Dev starter kits.",
   "repository": "https://github.com/o0y0o/starter-kits",
   "author": "Jason Chung",
@@ -9,7 +9,7 @@
     "access": "public"
   },
   "bin": {
-    "gen": "bin.js"
+    "gen": "script/gen.js"
   },
   "files": [
     "/_templates",
