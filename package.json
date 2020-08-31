@@ -1,0 +1,29 @@
+{
+  "name": "starter-kits",
+  "version": "0.0.1",
+  "description": "Dev starter kits.",
+  "repository": "https://github.com/o0y0o/starter-kits",
+  "author": "Jason Chung",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "gen": "bin.js"
+  },
+  "files": [
+    "/_templates"
+  ],
+  "keywords": [
+    "hygen"
+  ],
+  "scripts": {
+    "format": "prettier --write 'script/**/*.js'"
+  },
+  "dependencies": {
+    "hygen": "^6.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.1"
+  }
+}
