@@ -18,7 +18,8 @@
     "hygen"
   ],
   "scripts": {
-    "format": "prettier --write 'script/**/*.js'"
+    "format": "prettier --write 'script/**/*.js'",
+    "pkg": "yarn publish"
   },
   "dependencies": {
     "hygen": "^6.0.0"
