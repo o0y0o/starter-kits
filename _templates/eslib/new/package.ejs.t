@@ -5,6 +5,7 @@ to: <%= h.getProjectName(name) %>/package.json
   "name": "<%= name %>",
   "version": "1.0.0",
   "description": "<%= description %>",
+  "src": "src/index.js"
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
   "browser": "dist/index.min.js",
@@ -19,8 +20,7 @@ to: <%= h.getProjectName(name) %>/package.json
     "format": "prettier --write '{*,src/**/*}.js'",
     "lint": "eslint '{*,src/**/*}.js'",
     "test": "jest",
-    "build": "rollup -c",
-    "pkg": "yarn publish"
+    "build": "rollup -c"
   },
   "dependencies": {},
   "devDependencies": {

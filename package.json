@@ -1,6 +1,6 @@
 {
   "name": "@0y0/starter-kits",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Dev starter kits.",
   "repository": "https://github.com/o0y0o/starter-kits",
   "author": "Jason Chung",
@@ -23,7 +23,7 @@
     "pkg": "yarn publish"
   },
   "dependencies": {
-    "hygen": "^6.0.0"
+    "hygen": "^6.0.4"
   },
   "devDependencies": {
     "prettier": "^2.1.1"
