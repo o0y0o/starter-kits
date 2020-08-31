@@ -5,7 +5,7 @@ const { runner } = require('hygen/dist/index')
 const Logger = require('hygen/dist/logger').default
 
 runner(process.argv.slice(2), {
-  templates: path.join(__dirname, '../__templates'),
+  templates: path.join(__dirname, '../_templates'),
   cwd: process.cwd(),
   logger: new Logger(console.log.bind(console)),
   debug: !!process.env.DEBUG,
