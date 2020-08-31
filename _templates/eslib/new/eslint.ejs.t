@@ -15,7 +15,7 @@ to: <%= h.getProjectName(name) %>/.eslintrc
   "overrides": [
     {
       "files": "**/*.test.js",
-      "env": { "mocha": true }
+      "env": { "jest": true }
     }
   ]
 }

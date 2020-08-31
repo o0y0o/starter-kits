@@ -1,7 +1,7 @@
 ---
 to: <%= h.getProjectName(name) %>/README.md
 ---
-# <%= repoName %> · [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/<%= repoName %>/blob/master/LICENSE) [![npm](https://img.shields.io/npm/v/<% name %>.svg)](https://www.npmjs.com/package/<% name %>) ![Status](https://github.com/<%= repoName %>/workflows/Package/badge.svg)
+# <%= repoName %> · [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/<%= repoName %>/blob/master/LICENSE) [![npm](https://img.shields.io/npm/v/<%= name %>.svg)](https://www.npmjs.com/package/<%= name %>) ![Status](https://github.com/<%= repoName %>/workflows/Package/badge.svg)
 
 <%= description %>
 
