@@ -1,8 +1,6 @@
 const path = require('path')
-
-import path from 'path'
-import Logger from 'hygen/dist/logger'
-import { runner } from 'hygen/dist/index'
+const { runner } = require('hygen/dist/index')
+const Logger = require('hygen/dist/logger')
 
 runner(process.argv.slice(2), {
   templates: path.join(__dirname, '../__templates'),
