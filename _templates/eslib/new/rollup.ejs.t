@@ -42,7 +42,6 @@ export default [
       file: path.join(__dirname, pkg.browser),
       format: 'iife',
       name: '<%= h.changeCase.pascalCase(h.getProjectName(name)) %>',
-      globals: { axios: true },
       plugins: [terser()]
     }
   }
