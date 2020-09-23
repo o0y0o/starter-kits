@@ -8,7 +8,7 @@ to: <%= h.getProjectName(name) %>/package.json
   "src": "src/index.js",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
-  "browser": "dist/index.min.js",
+  "iife": "dist/index.min.js",
   "repository": "https://github.com/<%= repoName %>",
   "author": "<%= authorName %>",
   "license": "MIT",
