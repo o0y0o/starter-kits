@@ -8,9 +8,9 @@
   integrity sha512-rr+OQyAjxze7GgWrSaJwydHStIhHq2lvY3BOC2Mj7KnzI7XK0Uw1TOOdI9lDoajEbSWLiYgoo4f1R51erQfhPQ==
 
 "@types/node@^14.0.14":
-  version "14.6.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.6.2.tgz#264b44c5a28dfa80198fc2f7b6d3c8a054b9491f"
-  integrity sha512-onlIwbaeqvZyniGPfdw/TEhKIh79pz66L1q06WUQqJLnAb6wbjvOtepLYTGHTqzdXgBYIE3ZdmqHDGsRsbBz7A==
+  version "14.11.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.11.2.tgz#2de1ed6670439387da1c9f549a2ade2b0a799256"
+  integrity sha512-jiE3QIxJ8JLNcb1Ps6rDbysDhN4xa8DJJvuC9prr6w+1tIh+QAbYyNF3tyiZNLDBIuBCf4KEcV2UvQm/V60xfA==
 
 ansi-colors@^4.1.1:
   version "4.1.1"
@@ -281,7 +281,7 @@ human-signals@^1.1.1:
 
 hygen@^6.0.4:
   version "6.0.4"
-  resolved "https://registry.npmjs.org/hygen/-/hygen-6.0.4.tgz#89d494c34c4160484e2057e649045e2e466b31de"
+  resolved "https://registry.yarnpkg.com/hygen/-/hygen-6.0.4.tgz#89d494c34c4160484e2057e649045e2e466b31de"
   integrity sha512-FzYMYnhSfJc3i/fLi6GqpGVNQSCvAQ2eKL8oA59iJ8c50/BjFujjMYW0nB+Vl7fGwb2OPbyROb1vIBWPBG+rFg==
   dependencies:
     "@types/node" "^14.0.14"

@@ -4,8 +4,9 @@ to: <%= h.getProjectName(name) %>/.github/workflows/package.yml
 name: Package
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - master
 
 jobs:
   publish:
@@ -19,6 +20,6 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn lint && yarn test
       - run: yarn build
-      - run: yarn publish
+      - run: yarn pkg
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}

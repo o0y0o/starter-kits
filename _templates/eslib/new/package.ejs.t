@@ -20,7 +20,8 @@ to: <%= h.getProjectName(name) %>/package.json
     "format": "prettier --write '{*,src/**/*}.js'",
     "lint": "eslint '{*,src/**/*}.js'",
     "test": "jest",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "pkg": "[ $(yarn info $npm_package_name version) != $npm_package_version ] && yarn publish || echo Skip publishing due to v$npm_package_version exist"
   },
   "dependencies": {},
   "peerDependencies": {
