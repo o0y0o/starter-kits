@@ -1,7 +1,7 @@
 {
   "name": "@0y0/starter-kits",
-  "version": "1.0.2",
-  "description": "Dev starter kits.",
+  "version": "1.0.3",
+  "description": "A common hygen boilerplate kits.",
   "repository": "https://github.com/o0y0o/starter-kits",
   "author": "Jason Chung",
   "license": "MIT",
