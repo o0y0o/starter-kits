@@ -20,7 +20,7 @@
   ],
   "scripts": {
     "format": "prettier --write 'script/**/*.js'",
-    "pkg": "yarn publish"
+    "pkg": "[ $(yarn info $npm_package_name version) != $npm_package_version ] && yarn publish || echo Skip publishing due to v$npm_package_version exist"
   },
   "dependencies": {
     "hygen": "^6.0.4"
