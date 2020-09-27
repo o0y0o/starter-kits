@@ -5,7 +5,7 @@
 ## Intsallation
 
 ```sh
-npm install @0y0/starter-kits --save
+npm install @0y0/starter-kits --global
 ```
 
 ## Usage
