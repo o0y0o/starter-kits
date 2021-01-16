@@ -1,5 +1,5 @@
 ---
-to: <%= h.getProjectName(repoName) %>/src/index.test.js
+to: <%= h.getProjectName(repoName) %>/packages/<%= h.getProjectName(pkgName) %>/src/index.test.js
 ---
 import index from './index'
 

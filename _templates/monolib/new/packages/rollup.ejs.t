@@ -1,5 +1,5 @@
 ---
-to: <%= h.getProjectName(repoName) %>/rollup.config.js
+to: <%= h.getProjectName(repoName) %>/packages/<%= h.getProjectName(pkgName) %>/rollup.config.js
 ---
 import path from 'path'
 import babel from '@rollup/plugin-babel'

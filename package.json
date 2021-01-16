@@ -1,6 +1,6 @@
 {
   "name": "@0y0/starter-kits",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A common hygen boilerplate kits to code faster and simple.",
   "repository": "https://github.com/o0y0o/starter-kits",
   "author": "Jason Chung",
@@ -9,17 +9,17 @@
     "access": "public"
   },
   "bin": {
-    "gen": "script/gen.js"
+    "gen": "scripts/gen.js"
   },
   "files": [
     "/_templates",
-    "/script"
+    "/scripts"
   ],
   "keywords": [
     "hygen"
   ],
   "scripts": {
-    "format": "prettier --write 'script/**/*.js'",
+    "format": "prettier --write 'scripts/**/*.js'",
     "pkg": "[ $(yarn info $npm_package_name version) != $npm_package_version ] && yarn publish || echo Skip publishing due to v$npm_package_version exist"
   },
   "dependencies": {
