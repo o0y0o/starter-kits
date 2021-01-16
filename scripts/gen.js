@@ -15,7 +15,7 @@ runner(process.argv.slice(2), {
   },
   createPrompter: () => require('enquirer'),
   helpers: {
-    getProjectName: pkgName => /([^\/]+)$/.exec(pkgName)[1],
+    getProjectName: repoName => /([^\/]+)$/.exec(repoName)[1],
     getFullYear: () => new Date().getFullYear()
   }
 }).then(({ success }) => process.exit(success ? 0 : 1))

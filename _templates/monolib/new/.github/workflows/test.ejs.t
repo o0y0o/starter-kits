@@ -1,15 +1,10 @@
----
-to: <%= h.getProjectName(repoName) %>/.github/workflows/package.yml
----
-name: Package
+name: Test
 
 on:
-  push:
-    branches:
-      - master
+  pull_request
 
 jobs:
-  publish:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -19,7 +14,3 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: yarn install --frozen-lockfile
       - run: yarn lint && yarn test
-      - run: yarn build
-      - run: yarn pkg
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}

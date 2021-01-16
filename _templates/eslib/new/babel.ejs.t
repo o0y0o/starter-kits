@@ -1,7 +1,4 @@
 ---
-to: <%= h.getProjectName(name) %>/.babelrc
+to: <%= h.getProjectName(repoName) %>/.babelrc
 ---
-{
-  "presets": ["@babel/env"],
-  "plugins": ["@babel/transform-runtime"]
-}
+{ "presets": ["@0y0/vanilla"] }
