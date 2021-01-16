@@ -2,7 +2,7 @@
 to: <%= h.getProjectName(repoName) %>/package.json
 ---
 {
-  "name": "<%= repoName %>",
+  "name": "<%= h.getProjectName(repoName) %>",
   "version": "1.0.0",
   "description": "<%= repoDescription %>",
   "repository": "https://github.com/<%= repoName %>",
