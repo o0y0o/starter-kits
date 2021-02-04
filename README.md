@@ -11,7 +11,8 @@ npm install @0y0/starter-kits --global
 ## Usage
 
 ```sh
-gen eslib new # Generate a ES library project.
+gen eslib new # Generate a repo with ES lib.
+gen monolib new # Generate a monorepo with ES lib.
 ```
 
 ## License
