@@ -2,7 +2,7 @@
 
 `@0y0/starter-kits` is a common [hygen](https://github.com/jondot/hygen/) boilerplate kits to code faster and simple.
 
-## Intstallation
+## Installation
 
 ```sh
 npm install @0y0/starter-kits --global
