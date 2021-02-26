@@ -9,7 +9,7 @@ on:
       - master
 
 jobs:
-  publish:
+  package:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
