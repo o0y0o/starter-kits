@@ -30,11 +30,9 @@ to: <%= h.getProjectName(repoName) %>/package.json
     "@babel/runtime": "^7.11.2"
   },
   "devDependencies": {
-    "@0y0/babel-preset-vanilla": "^1.0.1",
-    "@0y0/eslint-config-vanilla": "^1.1.2",
-    "@babel/core": "^7.12.10",
+    "@0y0/babel-preset-vanilla": "^1.1.1",
+    "@0y0/eslint-config-vanilla": "^1.2.2",
     "@rollup/plugin-babel": "^5.2.2",
-    "babel-eslint": "^10.1.0",
     "babel-jest": "^26.3.3",
     "eslint": "^7.17.0",
     "jest": "^26.6.3",
