@@ -1,8 +1,8 @@
 ---
 to: <%= h.getProjectName(repoName) %>/.gitignore
 ---
-# Created by https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,visualstudiocode,macos
+# Created by https://www.toptal.com/developers/gitignore/api/macos,vscode,node
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,vscode,node
 
 ### macOS ###
 # General
@@ -12,6 +12,7 @@ to: <%= h.getProjectName(repoName) %>/.gitignore
 
 # Icon must end with two \r
 Icon
+
 
 # Thumbnails
 ._*
@@ -88,6 +89,9 @@ typings/
 # Optional eslint cache
 .eslintcache
 
+# Optional stylelint cache
+.stylelintcache
+
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
@@ -106,9 +110,11 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
+.env*.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
+.parcel-cache
 
 # Next.js build output
 .next
@@ -141,7 +147,7 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
-### VisualStudioCode ###
+### vscode ###
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -149,8 +155,4 @@ dist
 !.vscode/extensions.json
 *.code-workspace
 
-### VisualStudioCode Patch ###
-# Ignore all local history of files
-.history
-
-# End of https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,macos
+# End of https://www.toptal.com/developers/gitignore/api/macos,vscode,node
