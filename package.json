@@ -23,7 +23,7 @@
     "pkg": "[ $(yarn info $npm_package_name version) != $npm_package_version ] && yarn publish || echo Skip publishing due to v$npm_package_version exist"
   },
   "dependencies": {
-    "hygen": "^6.1.0"
+    "hygen": "^6.1.5"
   },
   "devDependencies": {
     "prettier": "^2.5.1"
