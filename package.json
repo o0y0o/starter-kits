@@ -26,6 +26,6 @@
     "hygen": "^6.2.11"
   },
   "devDependencies": {
-    "prettier": "^2.5.1"
+    "prettier": "^2.8.8"
   }
 }
